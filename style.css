@@ -1,0 +1,69 @@
+.weather_card_container{
+    position: relative;
+    min-height: 300px;
+    max-height: 300px;
+}
+.weather_card{
+    position: absolute;
+    width: 24.5%;
+    height: 300px;
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+}
+.weather_card:nth-child(1) {
+    left: 0%;
+}
+.weather_card:nth-child(2) {
+    left: 25.2%;
+}
+.weather_card:nth-child(3) {
+    right: 25.2%;
+}
+.weather_card:nth-child(4) {
+    right: 0%;
+}
+.wc-header{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 2vh;
+}
+.wc-temperature{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 20%;
+    color: white;
+    text-align: center;
+    font-size: 4vh;
+}
+.wc-cloudiness{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+}
+.wc-imgs{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 60%;
+}
+.wc-cloud{
+    position: absolute;
+    width: 170%;
+    top: 0%;
+}
+.wc-sun{
+    position: absolute;
+    width: 130%;
+    top: -30%;
+    left: -20%;
+}
+.day{
+    text-transform: capitalize;
+}
