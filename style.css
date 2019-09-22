@@ -8,6 +8,18 @@
     width: 24.5%;
     height: 300px;
     background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    cursor: pointer;
+}
+.weather_card:hover{
+    top: -1%;
+}
+.weather_card:active{
+    top: -1%;
+    opacity: 0.9;
 }
 .weather_card:nth-child(1) {
     left: 0%;
